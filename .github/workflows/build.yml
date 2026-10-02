@@ -127,7 +127,7 @@ jobs:
             git log --oneline "$PREV_TAG..HEAD" > release_notes.md
           fi
           if [[ ! -f release_notes.md || ! -s release_notes.md ]]; then
-            git log --oneline HEAD~10..HEAD > release_notes.md
+            git log --oneline -10 > release_notes.md
           fi
 
       - name: Create GitHub Release
