@@ -1,0 +1,70 @@
+package com.unjunkify.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val UnjunkifyPrimary = Color(0xFF1B5E20)
+val UnjunkifyOnPrimary = Color(0xFFFFFFFF)
+val UnjunkifyPrimaryContainer = Color(0xFFA5D6A7)
+val UnjunkifyOnPrimaryContainer = Color(0xFF0D3310)
+
+val UnjunkifySecondary = Color(0xFF37474F)
+val UnjunkifyOnSecondary = Color(0xFFFFFFFF)
+val UnjunkifySecondaryContainer = Color(0xFFCFD8DC)
+val UnjunkifyOnSecondaryContainer = Color(0xFF1C2529)
+
+val UnjunkifyTertiary = Color(0xFF00695C)
+val UnjunkifyOnTertiary = Color(0xFFFFFFFF)
+val UnjunkifyTertiaryContainer = Color(0xFF80CBC4)
+val UnjunkifyOnTertiaryContainer = Color(0xFF00201A)
+
+val UnjunkifyError = Color(0xFFB71C1C)
+val UnjunkifyOnError = Color(0xFFFFFFFF)
+val UnjunkifyErrorContainer = Color(0xFFFFCDD2)
+val UnjunkifyOnErrorContainer = Color(0xFF7F1010)
+
+val UnjunkifyBackground = Color(0xFFF5F5F5)
+val UnjunkifyOnBackground = Color(0xFF1C1B1F)
+val UnjunkifySurface = Color(0xFFFFFFFF)
+val UnjunkifyOnSurface = Color(0xFF1C1B1F)
+val UnjunkifySurfaceVariant = Color(0xFFE8E8E8)
+val UnjunkifyOnSurfaceVariant = Color(0xFF49454F)
+val UnjunkifyOutline = Color(0xFF79747E)
+
+// Material 3 1.2+ & 1.3+ Surface Container & Inverse Tokens (Light)
+val UnjunkifySurfaceDimLight = Color(0xFFDADADA)
+val UnjunkifySurfaceBrightLight = Color(0xFFFBFBFB)
+val UnjunkifySurfaceContainerLowestLight = Color(0xFFFFFFFF)
+val UnjunkifySurfaceContainerLowLight = Color(0xFFF4F6F4)
+val UnjunkifySurfaceContainerLight = Color(0xFFEEF1EE)
+val UnjunkifySurfaceContainerHighLight = Color(0xFFE8ECE8)
+val UnjunkifySurfaceContainerHighestLight = Color(0xFFE2E7E2)
+val UnjunkifyOutlineVariantLight = Color(0xFFC4C7C5)
+val UnjunkifyScrim = Color(0xFF000000)
+val UnjunkifyInverseSurfaceLight = Color(0xFF2E312E)
+val UnjunkifyInverseOnSurfaceLight = Color(0xFFEFF1EE)
+val UnjunkifyInversePrimaryLight = Color(0xFFA5D6A7)
+
+// Material 3 1.2+ & 1.3+ Surface Container & Inverse Tokens (Dark)
+val UnjunkifySurfaceDimDark = Color(0xFF111411)
+val UnjunkifySurfaceBrightDark = Color(0xFF373A37)
+val UnjunkifySurfaceContainerLowestDark = Color(0xFF0C0F0C)
+val UnjunkifySurfaceContainerLowDark = Color(0xFF191C19)
+val UnjunkifySurfaceContainerDark = Color(0xFF1D201D)
+val UnjunkifySurfaceContainerHighDark = Color(0xFF282B28)
+val UnjunkifySurfaceContainerHighestDark = Color(0xFF333633)
+val UnjunkifyOutlineVariantDark = Color(0xFF424942)
+val UnjunkifyInverseSurfaceDark = Color(0xFFE1E3DF)
+val UnjunkifyInverseOnSurfaceDark = Color(0xFF2E312E)
+val UnjunkifyInversePrimaryDark = Color(0xFF1B5E20)
+
+// Glassmorphism — gradient backgrounds
+val GlassGradientStartLight = Color(0xFFE8F5E9)
+val GlassGradientMidLight = Color(0xFFE0F2F1)
+val GlassGradientEndLight = Color(0xFFE3F2FD)
+val GlassGradientStartDark = Color(0xFF1B2E1B)
+val GlassGradientMidDark = Color(0xFF1A2E2D)
+val GlassGradientEndDark = Color(0xFF0D2338)
+
+// Glassmorphism — surface tint (applied via copy(alpha =))
+val GlassBorderLight = Color(0x4DFFFFFF)
+val GlassBorderDark = Color(0x1AFFFFFF)

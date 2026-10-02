@@ -1,0 +1,63 @@
+* text=auto
+
+# Source code
+*.kt text diff=kotlin
+*.kts text diff=kotlin
+*.java text
+*.swift text
+*.xml text
+*.toml text
+*.properties text
+*.gradle text
+*.md text diff=markdown
+*.yml text
+*.yaml text
+*.json text
+*.txt text
+*.sh text eol=lf
+*.bat text eol=crlf
+*.plist text
+*.entitlements text
+*.xcconfig text
+
+# Xcode project files (text but conflict-prone)
+*.pbxproj text merge=union
+
+# Binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.webp binary
+*.mp3 binary
+*.mp4 binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Android-specific
+*.apk binary
+*.aab binary
+*.dex binary
+*.class binary
+*.jar binary
+*.aar binary
+*.keystore binary
+*.jks binary
+
+# Kotlin/Native
+*.klib binary
+
+# iOS / Xcode binaries
+*.xcworkspace binary
+*.xcuserdata binary
+
+# Room database schemas
+composeApp/schemas/**/*.json text
+
+# Gradle wrapper
+gradlew text eol=lf
+gradlew.bat text eol=crlf

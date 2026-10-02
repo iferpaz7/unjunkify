@@ -1,0 +1,87 @@
+### Gradle ###
+.gradle/
+build/
+
+### Kotlin ###
+.kotlin/
+*.kotlin_module
+*.klib
+
+### Android ###
+*.apk
+*.ap_
+*.aab
+*.apks
+*.dex
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.war
+*.ear
+*.aar
+bin/
+gen/
+out/
+
+### Android Studio ###
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+*.crash
+output-metadata.json
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### Room Database ###
+composeApp/schemas/
+
+### Xcode / iOS ###
+iosApp/build/
+iosApp/Pods/
+iosApp/*.xcworkspace/xcuserdata/
+iosApp/Podfile.lock
+iosApp/*.xcworkspace
+*.xcuserdata
+
+### macOS ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+### Windows ###
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### Logs & Crash Reports ###
+*.log
+hs_err_pid*
+
+### Keystore & Signing ###
+*.jks
+*.keystore
+*.p12
+*.pkcs12
+
+### Firebase / Google Services ###
+google-services.json
+GoogleService-Info.plist
+
+### Environment ###
+.env
+*.env.local
+
+### Misc ###
+*~
+*.swp
+*.swo
